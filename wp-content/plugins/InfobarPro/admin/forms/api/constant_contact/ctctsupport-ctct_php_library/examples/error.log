@@ -1,0 +1,36 @@
+Constant Contact Exception -- April 16, 2014, 2:50:55am
+Constant Contact HTTP Request Exception: Error 409: Email address jaya.rai007@gmail.com is already a contact
+Stack Trace: #0 E:\wamp\www\constant_contact\ctctsupport-ctct_php_library\Collections.php(202): CTCTRequest->makeRequest('https://api.con...', 'POST', '<?xml version="...')
+#1 E:\wamp\www\constant_contact\ctctsupport-ctct_php_library\ConstantContact.php(104): ContactsCollection->addContact(Object(Contact))
+#2 E:\wamp\www\constant_contact\ctctsupport-ctct_php_library\examples\addContact.php(38): ConstantContact->addContact(Object(Contact))
+#3 {main}
+
+Constant Contact Exception -- April 16, 2014, 2:51:21am
+Constant Contact HTTP Request Exception: Error 409: Email address jaya.rai007@gmail.com is already a contact
+Stack Trace: #0 E:\wamp\www\constant_contact\ctctsupport-ctct_php_library\Collections.php(202): CTCTRequest->makeRequest('https://api.con...', 'POST', '<?xml version="...')
+#1 E:\wamp\www\constant_contact\ctctsupport-ctct_php_library\ConstantContact.php(104): ContactsCollection->addContact(Object(Contact))
+#2 E:\wamp\www\constant_contact\ctctsupport-ctct_php_library\examples\addContact.php(38): ConstantContact->addContact(Object(Contact))
+#3 {main}
+
+Constant Contact Exception -- April 16, 2014, 3:08:08am
+Constant Contact HTTP Request Exception: Error 409: Email address jaya@domain.com is already a contact
+Stack Trace: #0 E:\wamp\www\constant_contact\ctctsupport-ctct_php_library\Collections.php(202): CTCTRequest->makeRequest('https://api.con...', 'POST', '<?xml version="...')
+#1 E:\wamp\www\constant_contact\ctctsupport-ctct_php_library\ConstantContact.php(104): ContactsCollection->addContact(Object(Contact))
+#2 E:\wamp\www\constant_contact\ctctsupport-ctct_php_library\examples\addContact.php(38): ConstantContact->addContact(Object(Contact))
+#3 {main}
+
+Constant Contact Exception -- April 16, 2014, 3:10:22am
+Constant Contact Contact Error: 'emailAddress' was required but not supplied
+Stack Trace: #0 E:\wamp\www\constant_contact\ctctsupport-ctct_php_library\Components.php(262): CCObject->validate(Array)
+#1 E:\wamp\www\constant_contact\ctctsupport-ctct_php_library\Collections.php(201): Contact->createXml()
+#2 E:\wamp\www\constant_contact\ctctsupport-ctct_php_library\ConstantContact.php(104): ContactsCollection->addContact(Object(Contact))
+#3 E:\wamp\www\constant_contact\ctctsupport-ctct_php_library\examples\addContact.php(38): ConstantContact->addContact(Object(Contact))
+#4 {main}
+
+Constant Contact Exception -- April 16, 2014, 3:10:24am
+Constant Contact HTTP Request Exception: Error 400: A non-empty email address must be provided
+Stack Trace: #0 E:\wamp\www\constant_contact\ctctsupport-ctct_php_library\Collections.php(202): CTCTRequest->makeRequest('https://api.con...', 'POST', '<?xml version="...')
+#1 E:\wamp\www\constant_contact\ctctsupport-ctct_php_library\ConstantContact.php(104): ContactsCollection->addContact(Object(Contact))
+#2 E:\wamp\www\constant_contact\ctctsupport-ctct_php_library\examples\addContact.php(38): ConstantContact->addContact(Object(Contact))
+#3 {main}
+

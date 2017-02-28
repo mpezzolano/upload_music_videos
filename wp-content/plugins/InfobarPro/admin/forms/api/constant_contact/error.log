@@ -1,0 +1,21 @@
+Constant Contact Exception -- April 16, 2014, 6:02:54am
+Constant Contact HTTP Request Exception: Error 400: The provided email address email id to subscribe was not valid
+Stack Trace: #0 E:\wamp\www\constant_contact\ctctsupport-ctct_php_library\Collections.php(202): CTCTRequest->makeRequest('https://api.con...', 'POST', '<?xml version="...')
+#1 E:\wamp\www\constant_contact\ctctsupport-ctct_php_library\ConstantContact.php(104): ContactsCollection->addContact(Object(Contact))
+#2 E:\wamp\www\constant_contact\example.php(25): ConstantContact->addContact(Object(Contact))
+#3 {main}
+
+Constant Contact Exception -- April 28, 2014, 3:33:33am
+Constant Contact HTTP Request Exception: <html><head><title>JBoss Web/2.1.1.SNAPSHOT - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 401 - Application data not found for key: %jaya.inkthemes@gmail.com</h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u>Application data not found for key: %jaya.inkthemes@gmail.com</u></p><p><b>description</b> <u>This request requires HTTP authentication (Application data not found for key: %jaya.inkthemes@gmail.com).</u></p><HR size="1" noshade="noshade"><h3>JBoss Web/2.1.1.SNAPSHOT</h3></body></html>
+Stack Trace: #0 E:\wamp\www\constant_contact\ctctsupport-ctct_php_library\Collections.php(62): CTCTRequest->makeRequest('https://api.con...', 'GET')
+#1 E:\wamp\www\constant_contact\ctctsupport-ctct_php_library\ConstantContact.php(42): ListsCollection->getLists(NULL, false)
+#2 E:\wamp\www\constant_contact\example.php(11): ConstantContact->getLists()
+#3 {main}
+
+Constant Contact Exception -- April 28, 2014, 3:36:55am
+Constant Contact HTTP Request Exception: Error 400: The provided email address email id to subscribe was not valid
+Stack Trace: #0 E:\wamp\www\constant_contact\ctctsupport-ctct_php_library\Collections.php(202): CTCTRequest->makeRequest('https://api.con...', 'POST', '<?xml version="...')
+#1 E:\wamp\www\constant_contact\ctctsupport-ctct_php_library\ConstantContact.php(104): ContactsCollection->addContact(Object(Contact))
+#2 E:\wamp\www\constant_contact\example.php(25): ConstantContact->addContact(Object(Contact))
+#3 {main}
+

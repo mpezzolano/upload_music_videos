@@ -1,0 +1,501 @@
+# Copyright (C) 2015 InfoBar Pro
+# This file is distributed under the same license as the InfoBar Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: InfoBar Pro 1.4\n"
+"Report-Msgid-Bugs-To: http://inkthemes.com\n"
+"POT-Creation-Date: 2015-05-05 13:00:00+00:00\n"
+"PO-Revision-Date: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: Sobhagya Sahu <sobhagya1411@gmail.com>\n"
+"X-Generator: Poedit 1.8.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_ES\n"
+
+#: admin/adminmenu.php:13
+msgid "Info Bar"
+msgstr ""
+
+#: admin/adminmenu.php:8
+msgid "Notification entries"
+msgstr ""
+
+#: admin/adminmenu.php:17
+msgid "Mailing List"
+msgstr ""
+
+#: admin/adminmenu.php:21 admin/forms/settings.php:20
+msgid "Settings"
+msgstr ""
+
+#: admin/adminmenu.php:24
+msgid "Subscriber List"
+msgstr ""
+
+#: admin/forms/entries.php:9
+msgid "Notifications entries"
+msgstr ""
+
+#: admin/forms/entries.php:65 admin/forms/nottypes.php:52
+msgid "Entries"
+msgstr ""
+
+#: admin/forms/entries.php:76 admin/forms/entries.php:89
+msgid "Time to display"
+msgstr ""
+
+#: admin/forms/entries.php:77 admin/forms/entries.php:90
+#: admin/forms/entries.php:317
+msgid "Notification type"
+msgstr ""
+
+#: admin/forms/entries.php:78 admin/forms/entries.php:91
+#: admin/forms/entries.php:224 admin/forms/nottypes.php:59
+#: admin/forms/nottypes.php:97 admin/forms/subscriberlist.php:14
+msgid "Name"
+msgstr ""
+
+#: admin/forms/entries.php:80 admin/forms/entries.php:93
+msgid "Time created"
+msgstr ""
+
+#: admin/forms/entries.php:81 admin/forms/entries.php:94
+msgid "Options"
+msgstr ""
+
+#: admin/forms/entries.php:82 admin/forms/entries.php:95
+#: admin/forms/entries.php:345
+msgid "Status"
+msgstr ""
+
+#: admin/forms/entries.php:202
+msgid "New/Edit Top Notification InfoBar"
+msgstr ""
+
+#: admin/forms/entries.php:216
+msgid "InfoBar Name"
+msgstr ""
+
+#: admin/forms/entries.php:217
+msgid "Set unique name for the Notification InfoBar"
+msgstr ""
+
+#: admin/forms/entries.php:226
+msgid "Select Option"
+msgstr ""
+
+#: admin/forms/entries.php:228
+msgid "Simple message"
+msgstr ""
+
+#: admin/forms/entries.php:228
+msgid "Message with obtain"
+msgstr ""
+
+#: admin/forms/entries.php:246
+msgid "Top InfoBar Content"
+msgstr ""
+
+#: admin/forms/entries.php:247
+msgid "Text to be displayed on the top panel of InfoBar, Support HTML"
+msgstr ""
+
+#: admin/forms/entries.php:318
+msgid "If no notification type is set, the default settings will be used as set in the settings panel"
+msgstr ""
+
+#: admin/forms/entries.php:327
+msgid "Bar color"
+msgstr ""
+
+#: admin/forms/entries.php:328
+msgid "Background color of the Info bar on a per message base. This overrules the color from the chosen notification type"
+msgstr ""
+
+#: admin/forms/entries.php:337
+msgid "Font color of the info bar on a pre message base. This overrules the color from the chosen notification type"
+msgstr ""
+
+#: admin/forms/entries.php:280
+msgid "Name Textbox Placeholder"
+msgstr ""
+
+#: admin/forms/entries.php:281
+msgid "Customize the placeholder text of name field"
+msgstr ""
+
+#: admin/forms/entries.php:290
+msgid "Email Textbox Placeholder"
+msgstr ""
+
+#: admin/forms/entries.php:291
+msgid "Customize the placeholder text of email field"
+msgstr ""
+
+#: admin/forms/entries.php:300
+msgid "Subscribe Button"
+msgstr ""
+
+#: admin/forms/entries.php:301
+msgid "Customize the button text"
+msgstr ""
+
+#: admin/forms/entries.php:353 admin/forms/nottypes.php:185
+#: admin/forms/settings.php:137 admin/forms/subscriberlist.php:
+msgid "Save"
+msgstr ""
+
+#: admin/install/install.php:46
+msgid "Notification example"
+msgstr ""
+
+#: admin/adminmenu.php:13
+msgid "Notification types"
+msgstr ""
+
+#: admin/forms/nottypes.php:58 admin/forms/nottypes.php:66
+msgid "Icon"
+msgstr ""
+
+#: admin/install/install.php:53
+msgid "TIP"
+msgstr ""
+
+#: admin/forms/nottypes.php:60 admin/forms/nottypes.php:68
+#: admin/forms/nottypes.php:171
+msgid "Background color"
+msgstr ""
+
+#: admin/forms/entries.php:336 admin/forms/nottypes.php:61
+#: admin/forms/nottypes.php:69 admin/forms/nottypes.php:179
+msgid "Font color"
+msgstr ""
+
+#: admin/forms/entries.php:83 admin/forms/entries.php:96
+#: admin/forms/entries.php:345 admin/forms/nottypes.php:62
+#: admin/forms/nottypes.php:70
+msgid "Edit"
+msgstr ""
+
+#: admin/forms/nottypes.php:136
+msgid "Icon path"
+msgstr ""
+
+#: admin/forms/nottypes.php:137
+msgid "If you leave this empty, no icon will be displayed in the info bar"
+msgstr ""
+
+#: admin/forms/nottypes.php:146
+msgid "Makes the image clickable, linking to this URL"
+msgstr ""
+
+#: admin/forms/nottypes.php:154
+msgid "Notification name"
+msgstr ""
+
+#: admin/forms/nottypes.php:155
+msgid "This text will be displayed as announcement message"
+msgstr ""
+
+#: admin/forms/nottypes.php:163
+msgid "Notification size"
+msgstr ""
+
+#: admin/forms/nottypes.php:125
+msgid "New / edit entry"
+msgstr ""
+
+#: admin/forms/settings.php:15
+msgid "Notifications settings"
+msgstr ""
+
+#: admin/forms/settings.php:25
+msgid "Bar type:"
+msgstr ""
+
+#: admin/forms/settings.php:25
+msgid "Inline = scrolls with the page, Fixed = stays on top of the screen also when scrolling the page"
+msgstr ""
+
+#: admin/forms/settings.php:31
+msgid "Insert type:"
+msgstr ""
+
+#: admin/forms/settings.php:35
+msgid "Widget = you need to insert the widget, Header = Inserts the info bar automaticly on all pages / posts"
+msgstr ""
+
+#: admin/forms/settings.php:37
+msgid "Easing type:"
+msgstr ""
+
+#: admin/forms/settings.php:38
+msgid "Swing"
+msgstr ""
+
+#: admin/forms/settings.php:39
+msgid "Linear"
+msgstr ""
+
+#: admin/forms/settings.php:45
+msgid "Bar announcement text size:"
+msgstr ""
+
+#: admin/forms/settings.php:43
+msgid "The message here will be static on the LEFT of the Info bar."
+msgstr ""
+
+#: admin/forms/settings.php:45
+msgid "Bar announcement text:"
+msgstr ""
+
+#: admin/forms/settings.php:48
+msgid "Display time:"
+msgstr ""
+
+#: admin/forms/settings.php:49
+msgid "Display in milliseconds (for ex: 2000 = 2 seconds)"
+msgstr ""
+
+#: admin/forms/settings.php:51
+msgid "Bar height:"
+msgstr ""
+
+#: admin/forms/settings.php:52
+msgid "Height of the bar in pixels"
+msgstr ""
+
+#: admin/forms/settings.php:54
+msgid "Button height:"
+msgstr ""
+
+#: admin/forms/settings.php:55
+msgid "Height of the button in pixels (button is visible when the bar is colapsed)"
+msgstr ""
+
+#: admin/forms/settings.php:57
+msgid "Display type:"
+msgstr ""
+
+#: admin/forms/settings.php:64
+msgid "The options delayed & on scroll, depend on the Display delay settings"
+msgstr ""
+
+#: admin/forms/settings.php:60
+msgid "Delayed"
+msgstr ""
+
+#: admin/forms/settings.php:61
+msgid "Expanded"
+msgstr ""
+
+#: admin/forms/settings.php:62
+msgid "Collapsed"
+msgstr ""
+
+#: admin/forms/settings.php:63
+msgid "On Scroll"
+msgstr ""
+
+#: admin/forms/settings.php:66
+msgid "Display delay:"
+msgstr ""
+
+#: admin/forms/settings.php:67
+msgid "When the site is visited the bar is colapsed by default, it will be expanded after this delay (in milliseconds)"
+msgstr ""
+
+#: admin/forms/settings.php:69
+msgid "Display speed:"
+msgstr ""
+
+#: admin/forms/settings.php:77
+msgid "The speed of scrolling when a message is too long to display"
+msgstr ""
+
+#: admin/forms/settings.php:
+msgid "Extreme slow"
+msgstr ""
+
+#: admin/forms/settings.php:
+msgid "Slow"
+msgstr ""
+
+#: admin/forms/settings.php:
+msgid "Extreme fast"
+msgstr ""
+
+#: admin/forms/settings.php:
+msgid "Fast"
+msgstr ""
+
+#: admin/forms/settings.php:
+msgid "Normal"
+msgstr ""
+
+#: admin/forms/settings.php:79
+msgid "Enable cookie:"
+msgstr ""
+
+#: admin/forms/settings.php:83
+msgid "When enabled, the colapsed or expanded position of the bar will be saved in a cookie, for future visits"
+msgstr ""
+
+#: admin/forms/settings.php:77
+msgid "New message new Cookie:"
+msgstr ""
+
+#: admin/forms/settings.php:89
+msgid "If a new notification is scheduled to display, the cookie will be refreshed and all saved states will be ignored. (basicly this means: if anything changes in the set of messages which need to being displayed or you create a new message, the info bar will be expanded by default again, and the new notification will be visible to the user)"
+msgstr ""
+
+#: admin/forms/entries.php:347 admin/forms/settings.php:
+msgid "Enabled"
+msgstr ""
+
+#: admin/forms/entries.php:347
+msgid "Disabled"
+msgstr ""
+
+#: admin/forms/settings.php:91
+msgid "Cookie expire time:"
+msgstr ""
+
+#: admin/forms/settings.php:92
+msgid "Cookie expire time in days. If the cookie expires, the user saved states will be ignored (The Info bar will be auto expanded then!)"
+msgstr ""
+
+#: admin/forms/settings.php:94
+msgid "Font size:"
+msgstr ""
+
+#: admin/forms/settings.php:97
+msgid "Close / Open button position:"
+msgstr ""
+
+#: admin/forms/settings.php:97
+msgid "Roles for notifications:"
+msgstr ""
+
+#: admin/forms/settings.php:97
+msgid "The roles selected here, can create/edit/delete notifications. No roles selected gives access to administrator only"
+msgstr ""
+
+#: admin/forms/settings.php:123
+msgid "Show version numbering in HTML source:"
+msgstr ""
+
+#: admin/forms/settings.php:129
+msgid "Debug:"
+msgstr ""
+
+#: admin/forms/settings.php:
+msgid "Left"
+msgstr ""
+
+#: admin/forms/settings.php:
+msgid "Right"
+msgstr ""
+
+#: admin/forms/subscriberlist.php:15
+msgid "Email"
+msgstr ""
+
+#: admin/forms/subscriberlist.php:33
+msgid "Do you want your leads to store in database?"
+msgstr ""
+
+#: admin/forms/subscriberlist.php:33
+msgid "Download List in File"
+msgstr ""
+
+#: admin/forms/subscriberlist.php:33
+msgid "Yes"
+msgstr ""
+
+#: admin/forms/subscriberlist.php:33
+msgid "No"
+msgstr ""
+
+#: admin/forms/mailing_settings.php:35
+msgid "You can create the API Keys Under the Account Link->API Keys"
+msgstr ""
+
+#: admin/forms/mailing_settings.php:39
+msgid "Enter Your Api Key"
+msgstr ""
+
+#: admin/forms/mailing_settings.php:14
+msgid "InfoBar Mailing List"
+msgstr ""
+
+#: admin/forms/mailing_settings.php:56
+msgid "Please Select a Mailing List"
+msgstr ""
+
+#: admin/forms/mailing_settings.php:
+msgid "Get Mailing List"
+msgstr ""
+
+#: admin/forms/mailing_settings.php:
+msgid "Connect To Aweber"
+msgstr ""
+
+#: admin/forms/mailing_settings.php:
+msgid "Click on button to connect the aweber account"
+msgstr ""
+
+#: admin/forms/mailing_settings.php:120
+msgid "Usage"
+msgstr ""
+
+#: admin/forms/mailing_settings.php:362
+msgid "Save Changes"
+msgstr ""
+
+#: admin/forms/mailing_settings.php:348
+msgid "Enter Email Address"
+msgstr ""
+
+#: admin/forms/mailing_settings.php:353
+msgid "Enter a email address to which you want to send the contact details"
+msgstr ""
+
+#: admin/forms/mailing_settings.php:261
+msgid "Please Select a Mailing List:"
+msgstr ""
+
+#: admin/forms/mailing_settings.php:282
+msgid "The API Key can be found undet the account setting."
+msgstr ""
+
+#: admin/forms/mailing_settings.php:288
+msgid "The ClientId can be generated from the Client Setting in the clients overview area."
+msgstr ""
+
+#: admin/forms/mailing_settings.php:242
+msgid "You can create the API Key under the My Account Link"
+msgstr ""
+
+#: admin/forms/entries.php:112
+msgid "Always visible"
+msgstr ""
+
+#: admin/forms/entries.php:221
+msgid "Notification InfoBar Setting"
+msgstr ""
+
+#: admin/forms/entries.php:
+msgid "Type Of InfoBar settings"
+msgstr ""
+
+#: admin/forms/subscriberlist.php:
+msgid "Subscriber List "
+msgstr ""
+
+#: admin/forms/subscriberlist.php:
+msgid "Downlaod"
+msgstr ""

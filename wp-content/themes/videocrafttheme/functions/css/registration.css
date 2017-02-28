@@ -1,0 +1,405 @@
+/*Registration Page
+==============================================*/
+.registration-page {
+	overflow: hidden;
+	margin-bottom: 21px;
+	margin-top: 30px;
+}
+.registration-page p {
+	font-family: "Lucida Sans Unicode", sans-serif;
+	font-size: 13px;
+	line-height: 22px;
+	color: #1c1b1b;
+	background: url(../images/headingsep.png) bottom repeat-x;
+	padding-bottom: 15px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.registration-page h1 {
+	color: #000000;
+	margin-bottom: 15px;
+	margin-top: 22px;
+	border: solid 1px #FF0000;
+}
+#registration_form {
+	margin: 0
+}
+#loginform {
+	margin: 0;
+        margin-left: 25px;
+}
+/* Signin Form style
+=============================================*/
+.signin {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 338px;
+	min-height: 352px;
+        background: #fff;
+        border: 1px solid #e7e7e7;
+}
+.signin h3 {
+	padding-bottom: 0px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+	font-family: "Lucida Sans Unicode", sans-serif;
+	color: #2e5d94;
+	font-size: 18px;
+	line-height: 24px;
+}
+.signinForm {
+	margin-left: 19px;
+	padding-top: 8px;
+	padding-right: 17px;
+}
+.signinForm p {
+	background: none;
+	margin-bottom: 0px;
+	line-height: 16px;
+	display: inline;
+	clear: left;
+	color: #758291;
+}
+.signinForm span {
+	color: #3ba8e6;
+}
+.signinForm label {
+	display: block;
+	clear: both;
+	font-family: "Lucida Sans Unicode", sans-serif;
+        color: #555;
+        font-size: 15px;
+        line-height: 24px;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 2px;
+}
+.signinForm input[type="text"], .signinForm input[type="password"] {
+	margin-bottom: 0;
+	height: 35px;
+	width: 97.5%;
+	padding-left: 5px;
+	float: left;
+	margin-bottom: 16px;
+	color: #c7c7c7;
+	border: none;
+        border: 1px solid #E4E4E4;
+        box-shadow: inset 0px 1px 2px rgba( 0,0,0,0.1 );
+        -webkit-transition: all 0.4s linear;
+        -moz-transition: all 0.4s linear;
+        -o-transition: all 0.4s linear;
+        -ms-transition: all 0.4s linear;
+        transition: all 0.4s linear;
+}
+.signinForm input[type="text"]:focus, .signinForm input[type="password"]:focus {
+        border: 1px solid #079ad8;
+        box-shadow: none;
+}
+.signinForm input[type="submit"] {
+	clear: both;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 0px;
+	line-height: 25px;
+	width: 65px;
+	height: 35px;
+	margin-bottom: 15px;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	color: #282829;
+	background: url(../../images/login.png) no-repeat;
+	text-align: center;
+	display: block;
+	margin-top: 38px;
+}
+.signinForm input[type="submit"]:hover {
+	opacity: .7;
+}
+a.forgot_password {
+	color: #345a83;
+}
+/* Registration Form style
+=============================================*/
+.registration {
+	margin: 0;
+	padding: 0;
+	border: none;
+	float: left;
+	margin-left: 40px;
+	width: 360px;
+	padding-bottom: 10px;
+        overflow: hidden;
+        background: #fff;
+        border: 1px solid #e7e7e7;
+}
+.registration h3 {
+	padding-bottom: 0px;
+	margin-top: 23px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	font-family: "Lucida Sans Unicode", sans-serif;
+	color: #2e5d94;
+	font-size: 18px;
+	line-height: 24px;
+}
+#reg_form {
+	margin-left: 20px;
+	padding-bottom: 10px;
+	margin-top: 14px;
+}
+#reg_form label {
+	display: block;
+	clear: both;
+	font-family: "Lucida Sans Unicode", sans-serif;
+	color: #5F5F5F;
+        font-size: 15px;
+	line-height: 24px;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0px;
+}
+#reg_form label.terms {
+	display: inline-block;
+}
+
+#reg_form span {
+	color: #3ba8e6;
+}
+#reg_form input[type="text"], #reg_form input[type="password"], #reg_form input[type="email"] {
+	margin-bottom: 0;
+	height: 37px;
+	width: 92.5%;
+	padding-left: 5px;
+	float: left;
+	margin-bottom: 17px;
+	color: #c7c7c7;
+	border: 1px solid #E4E4E4;
+        box-shadow: inset 0px 1px 2px rgba( 0,0,0,0.1 );
+}
+#reg_form span.captcha_img{
+	display:inline;
+	width:32%;
+	height:20px;
+	margin-left:5px;
+}
+#reg_form span.captcha_img img#captcha_img{
+	width:40%;
+	height:40px;
+}
+
+#reg_form input[type="checkbox"] {
+margin: 20px 13px 8px -149px;
+vertical-align:bottom;
+}
+
+#reg_form input#vercode {
+    margin-bottom: 0;
+    height: 36px;
+    width: 41%;
+    padding-left: 12px;
+    float: left;
+    margin-bottom: 10px;
+    color: #c7c7c7;
+}
+
+#reg_form input[type="submit"] {
+	clear: both;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 0px;
+	line-height: 25px;
+	width: 87px;
+	height: 35px;
+	margin-bottom: 15px;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	color: #282829;
+	background: url(../../images/rgs-btn.png) no-repeat;
+	text-align: center;
+	display: block;
+	margin-top: 10px;
+}
+#reg_form input[type="submit"]:hover {
+	opacity: .7;
+}
+.page_container {
+	padding-top: 0px;
+}
+.page_container .content {
+	margin-top: 0px;
+}
+.page_container .content h1, .page_container .content h3, .page_container .content label {
+/*margin-bottom:20px;*/
+}
+#fotget_pw input[type=text] {
+	height: 30px;
+	width: 320px;
+	border: solid 1px #d0d0d0;
+	padding-left: 5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-bottom: 14px;
+}
+#fotget_pw input[type=submit] {
+	width: 144px;
+	height: 30px;
+	line-height: 20px;
+	background-color: #21759B;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 15px;
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid #298CBA;
+	text-shadow: rgba(0, 0, 0, 0.3) 0 -1px 0;
+}
+#fotget_pw input[type=submit]:hover {
+	opacity: .7;
+}
+
+
+/* Media Screen
+====================================*/
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+.signin {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 337px;
+	min-height: 398px;
+	margin-left: 0;
+}
+.registration {
+	margin: 0;
+	padding: 0;
+	float: left;
+	margin-left: 0;
+	width: 337px;
+	margin-top: 10px;
+	min-height:520px !important;
+}
+}
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+.signin {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 337px;
+	min-height: 398px;
+}
+.registration {
+	margin: 0;
+	padding: 0;
+	float: left;
+	margin-left: 0;
+	width: 337px;
+	margin-top: 10px;
+	min-height:520px !important;
+}
+#reg_form span.captcha_img img#captcha_img{
+	display:inline;
+	width:40%;
+	height:36px;
+	margin-left:5px;
+}
+#reg_form input[type="checkbox"] {
+margin: 20px 13px 8px -140px;
+vertical-align:bottom;
+
+}
+
+#reg_form input#vercode {
+	height: 37px;
+	width: 43%;
+	padding-left: 4px;
+}
+}
+ @media only screen and (max-width: 480px) {
+.signin {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 280px;
+	min-height: 398px;
+	margin-left: 6px;
+	background: url(../../images/sign-in1.png) no-repeat;
+}
+.registration {
+	margin: 0;
+	padding: 0;
+	float: left;
+	margin-left: 0;
+	width: 280px;
+	margin-top: 10px;
+	margin-left: 6px;
+	background: url(../../images/regs2.png) no-repeat;
+	height:520px !important;
+}
+.signinForm {
+	margin-left: 27px;
+	padding-right: 17px;
+}
+.signin h3 {
+	text-indent: -9999px;
+}
+#reg_form {
+	margin-left: 27px;
+	padding-bottom: 10px;
+}
+.registration h3 {
+	text-indent: -99999px;
+}
+.signinForm input[type="text"], .signinForm input[type="password"] {
+	margin-bottom: 0;
+	height: 35px;
+	width: 224px;
+	padding-left: 5px;
+	float: left;
+	margin-bottom: 15px;
+	color: #c7c7c7;
+	background: url(../../images/sign-field1.png) no-repeat;
+	border: none;
+}
+#reg_form input[type="text"], #reg_form input[type="password"] {
+	margin-bottom: 0;
+	height: 35px;
+	width: 224px;
+	padding-left: 5px;
+	float: left;
+	margin-bottom: 10px;
+	color: #c7c7c7;
+	background: url(../../images/sign-field1.png) no-repeat;
+	border: none;
+}
+#fotget_pw input[type="text"] {
+	width: 90%;
+}
+/*input[type="checkbox"] {
+	margin: 40px 8px 3px 4px;
+	padding-top: 20px;
+	display: block;
+	border:solid 1px #000;
+}*/
+#reg_form input[type="checkbox"] {
+margin: 15px 13px 3px -114px;
+
+}
+
+#reg_form span.captcha_img img#captcha_img{
+	display:inline;
+	width:40%;
+	height:36px;
+	margin-left:5px;
+}
+
+#reg_form input#vercode {
+	height: 37px;
+	width: 43%;
+	padding-left: 4px;
+}
+}

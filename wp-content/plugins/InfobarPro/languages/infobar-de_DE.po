@@ -1,0 +1,834 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: InfoBar Pro\n"
+"POT-Creation-Date: 2015-07-01 12:52+0530\n"
+"PO-Revision-Date: 2015-07-01 12:53+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _:1;__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;_x:1,2c;"
+"_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;"
+"esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/adminmenu.php:6
+msgid "Info Bar"
+msgstr "Info Bar"
+
+#: admin/adminmenu.php:9
+msgid "Notification entries"
+msgstr "Benachrichtigung Einträge"
+
+#: admin/adminmenu.php:14 admin/forms/nottypes.php:7
+msgid "Notification types"
+msgstr "Benachrichtigungstypen"
+
+#: admin/adminmenu.php:18
+msgid "mailsettings"
+msgstr "Mail-Einstellungen"
+
+#: admin/adminmenu.php:18
+msgid "Mailing List"
+msgstr "Mailingliste"
+
+#: admin/adminmenu.php:22 admin/forms/settings.php:20
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: admin/adminmenu.php:25
+msgid "subscriberlist"
+msgstr "Teilnehmerliste"
+
+#: admin/adminmenu.php:25 admin/forms/subscriberlist.php:10
+#: admin/forms/subscriberlist.php:73 admin/forms/subscriberlist.php:96
+#: admin/forms/subscriberlist.php:119
+msgid "Subscriber List"
+msgstr "Teilnehmerliste"
+
+#: admin/forms/entries.php:7 admin/forms/mailing_settings.php:5
+#: admin/forms/nottypes.php:5 admin/forms/settings.php:5
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+"Sie verfügen nicht über ausreichende Berechtigungen, um auf diese Seite "
+"zuzugreifen."
+
+#: admin/forms/entries.php:9
+msgid "Notifications entries"
+msgstr "Benachrichtigungen Einträge"
+
+#: admin/forms/entries.php:11 admin/forms/nottypes.php:9
+msgid "New entry"
+msgstr "Neuer Eintrag"
+
+#: admin/forms/entries.php:23 admin/forms/entries.php:31
+#: admin/forms/entries.php:43 admin/forms/entries.php:51
+#: admin/forms/nottypes.php:21 admin/forms/nottypes.php:28
+#: admin/forms/nottypes.php:38
+msgid " &amp; W3 Total Cache Page Cache flushed"
+msgstr "&amp; W3 Total Cache Seite Cache geleert"
+
+#: admin/forms/entries.php:26 admin/forms/nottypes.php:23
+msgid "Updated:"
+msgstr "Aktualisiert:"
+
+#: admin/forms/entries.php:33 admin/forms/nottypes.php:30
+msgid "Saved:"
+msgstr "Gespeichert:"
+
+#: admin/forms/entries.php:45 admin/forms/nottypes.php:40
+msgid "Deleted:"
+msgstr "Gelöscht:"
+
+#: admin/forms/entries.php:53
+msgid "Status changed:"
+msgstr "Status geändert:"
+
+#: admin/forms/entries.php:68 admin/forms/nottypes.php:53
+msgid "Entries"
+msgstr "Einträge"
+
+#: admin/forms/entries.php:76 admin/forms/entries.php:89
+msgid "Time to display"
+msgstr "Zeit zum Anzeigen"
+
+#: admin/forms/entries.php:77 admin/forms/entries.php:90
+#: admin/forms/entries.php:315
+msgid "Notification type"
+msgstr "Meldungsart"
+
+#: admin/forms/entries.php:78 admin/forms/entries.php:91
+#: admin/forms/nottypes.php:60 admin/forms/nottypes.php:68
+#: admin/forms/subscriberlist.php:14
+msgid "Name"
+msgstr "Name"
+
+#: admin/forms/entries.php:79 admin/forms/entries.php:92
+#: admin/forms/entries.php:234
+msgid "Content"
+msgstr "Inhalt"
+
+#: admin/forms/entries.php:80 admin/forms/entries.php:93
+msgid "Time created"
+msgstr "Zeit erstellt"
+
+#: admin/forms/entries.php:81 admin/forms/entries.php:94
+msgid "Options"
+msgstr "Option"
+
+#: admin/forms/entries.php:82 admin/forms/entries.php:95
+#: admin/forms/entries.php:343
+msgid "Status"
+msgstr "Status"
+
+#: admin/forms/entries.php:83 admin/forms/entries.php:96
+#: admin/forms/nottypes.php:63 admin/forms/nottypes.php:71
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: admin/forms/entries.php:102 admin/forms/entries.php:107
+#: admin/forms/entries.php:141 admin/forms/nottypes.php:75
+#: admin/forms/nottypes.php:82
+msgid "Not set"
+msgstr "nicht gesetzt"
+
+#: admin/forms/entries.php:112
+msgid "Always visible"
+msgstr "Immer sichtbar"
+
+#: admin/forms/entries.php:118 admin/forms/entries.php:345
+#: admin/forms/metabox.php:20 admin/forms/settings.php:81
+#: admin/forms/settings.php:87 admin/forms/settings.php:125
+#: admin/forms/settings.php:131
+msgid "Enabled"
+msgstr "aktiviert"
+
+#: admin/forms/entries.php:121
+msgid "Enabled - (Disabled by schedule)"
+msgstr "Aktiviert - (Deaktiviert nach Zeitplan)"
+
+#: admin/forms/entries.php:127 admin/forms/entries.php:345
+#: admin/forms/metabox.php:21 admin/forms/settings.php:82
+#: admin/forms/settings.php:88 admin/forms/settings.php:126
+#: admin/forms/settings.php:132
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: admin/forms/entries.php:131 admin/forms/entries.php:136
+msgid "Not overruled"
+msgstr "nicht überstimmt"
+
+#: admin/forms/entries.php:202
+msgid "New/Edit Top Notification InfoBar"
+msgstr "Neu / Bearbeiten Top Mitteilung InfoBar"
+
+#: admin/forms/entries.php:211
+msgid "Notification InfoBar Setting"
+msgstr "Benachrichtigung InfoBar Einstellung"
+
+#: admin/forms/entries.php:215
+msgid "InfoBar Name"
+msgstr "InfoBar Name"
+
+#: admin/forms/entries.php:216
+msgid "Set unique name for the Notification InfoBar"
+msgstr "Stellen eindeutigen Namen für die Benachrichtigungs InfoBar"
+
+#: admin/forms/entries.php:225
+msgid "Select Option"
+msgstr "Wählen Sie eine Option"
+
+#: admin/forms/entries.php:227
+msgid "Simple message"
+msgstr "einfache Botschaft"
+
+#: admin/forms/entries.php:227
+msgid "Message with obtain"
+msgstr "Meldung mit erhalten"
+
+#: admin/forms/entries.php:245
+msgid "Top InfoBar Content"
+msgstr "Top InfoBar Inhalt"
+
+#: admin/forms/entries.php:246
+msgid "Text to be displayed on the top panel of InfoBar, Support HTML"
+msgstr ""
+"Text, der auf der Oberseite der Infoleiste, Unterstützung HTML angezeigt "
+"werden"
+
+#: admin/forms/entries.php:279
+msgid "Name Textbox Placeholder"
+msgstr "Textfeld Name Platzhalter"
+
+#: admin/forms/entries.php:280
+msgid "Customize the placeholder text of name field"
+msgstr "Passen Sie den Platzhaltertext der Namensfeld"
+
+#: admin/forms/entries.php:289
+msgid "Email Textbox Placeholder"
+msgstr "E-Mail-Textfeld-Platzhalter"
+
+#: admin/forms/entries.php:290
+msgid "Customize the placeholder text of email field"
+msgstr "Passen Sie den Platzhaltertext der E-Mail-Feld"
+
+#: admin/forms/entries.php:299
+msgid "Subscribe Button"
+msgstr "Abonnieren Knopf"
+
+#: admin/forms/entries.php:300
+msgid "Customize the button text"
+msgstr "Passen Sie auf die Schaltfläche Text"
+
+#: admin/forms/entries.php:311
+msgid "Type Of InfoBar settings"
+msgstr "Art der Infobar Einstellungen"
+
+#: admin/forms/entries.php:316
+msgid ""
+"If no notification type is set, the default settings will be used as set in "
+"the settings panel"
+msgstr ""
+"Erfolgt keine Meldung Typ eingestellt ist, werden die Standardeinstellungen "
+"verwendet, wie in der Optionsleiste eingestellt"
+
+#: admin/forms/entries.php:325
+msgid "Bar color"
+msgstr "Bar Farbe"
+
+#: admin/forms/entries.php:326
+msgid ""
+"Background color of the Info bar on a per message base. This overrules the "
+"color from the chosen notification type"
+msgstr ""
+"Hintergrundfarbe der Infoleiste auf einer pro Nachricht Basis. Diese "
+"überstimmt die Farbe aus der gewählten Meldungsart"
+
+#: admin/forms/entries.php:334 admin/forms/nottypes.php:62
+#: admin/forms/nottypes.php:70 admin/forms/nottypes.php:180
+msgid "Font color"
+msgstr "Schriftfarbe"
+
+#: admin/forms/entries.php:335
+msgid ""
+"Font color of the info bar on a pre message base. This overrules the color "
+"from the chosen notification type"
+msgstr ""
+"Schriftfarbe der Infoleiste auf einem bereits Nachricht Basis. Diese "
+"überstimmt die Farbe aus der gewählten Meldungsart"
+
+#: admin/forms/entries.php:351 admin/forms/nottypes.php:186
+#: admin/forms/settings.php:137 admin/forms/subscriberlist.php:49
+msgid "Save"
+msgstr "speichern"
+
+#: admin/forms/inc/generate.php:47
+msgid "Select a Color"
+msgstr "Wählen Sie eine Farbe"
+
+#: admin/forms/inc/generate.php:49
+msgid "Default color:"
+msgstr "Standardfarbe:"
+
+#: admin/forms/mailing_settings.php:14
+msgid "InfoBar Mailing List"
+msgstr "InfoBar Mailingliste"
+
+#: admin/forms/mailing_settings.php:35
+msgid "You can create the API Keys Under the Account Link->API Keys"
+msgstr "Sie können die API-Keys unter dem Konto Link-> API Keys erstellen"
+
+#: admin/forms/mailing_settings.php:39 admin/forms/mailing_settings.php:46
+#: admin/forms/mailing_settings.php:246 admin/forms/mailing_settings.php:310
+msgid "Enter Your Api Key"
+msgstr "Geben Sie Ihre API-Schlüssel"
+
+#: admin/forms/mailing_settings.php:55
+msgid "Please Select a Mailing List"
+msgstr "Bitte wählen Sie ein Mailing List"
+
+#: admin/forms/mailing_settings.php:59 admin/forms/mailing_settings.php:95
+#: admin/forms/mailing_settings.php:177 admin/forms/mailing_settings.php:224
+#: admin/forms/mailing_settings.php:259 admin/forms/mailing_settings.php:323
+msgid "Get Mailing List"
+msgstr "Holen Mailing List"
+
+#: admin/forms/mailing_settings.php:60 admin/forms/mailing_settings.php:96
+#: admin/forms/mailing_settings.php:177 admin/forms/mailing_settings.php:224
+#: admin/forms/mailing_settings.php:260 admin/forms/mailing_settings.php:325
+msgid "loading."
+msgstr "Lade."
+
+#: admin/forms/mailing_settings.php:92
+msgid "Get Aweber  Mailing List"
+msgstr "Holen Sie Aweber Mailingliste"
+
+#: admin/forms/mailing_settings.php:103 admin/forms/mailing_settings.php:106
+msgid "Connect To Aweber"
+msgstr "Verbinden mit Aweber"
+
+#: admin/forms/mailing_settings.php:108
+msgid "Click on button to connect the aweber account"
+msgstr "Klicken Sie auf die Schaltfläche, um den aweber Konto verbinden"
+
+#: admin/forms/mailing_settings.php:119
+msgid "Usage"
+msgstr "Verwendung"
+
+#: admin/forms/mailing_settings.php:120
+msgid "Navigate to Link"
+msgstr "Navigieren Sie zu Link"
+
+#: admin/forms/mailing_settings.php:121
+msgid "Use the AppID"
+msgstr "Verwenden Sie die App-ID"
+
+#: admin/forms/mailing_settings.php:121
+msgid "register the plugin to your account with a password to access it."
+msgstr ""
+"registrieren Sie das Plugin auf Ihrem Konto mit einem Passwort für den "
+"Zugriff."
+
+#: admin/forms/mailing_settings.php:126
+msgid "iContact Application Password"
+msgstr "iContact Anwendungs Passwort"
+
+#: admin/forms/mailing_settings.php:133
+msgid "Enter your icontact password"
+msgstr "Geben Sie Ihre iContact vergessen"
+
+#: admin/forms/mailing_settings.php:137
+msgid "Enter your iContact application password "
+msgstr "Geben Sie Ihre iContact Anwendung vergessen"
+
+#: admin/forms/mailing_settings.php:142
+msgid "iContact Username"
+msgstr "iContact Benutzername"
+
+#: admin/forms/mailing_settings.php:149
+msgid "Enter Your Username"
+msgstr "Geben Sie Benutzername"
+
+#: admin/forms/mailing_settings.php:153
+msgid "Enter your iContact application Username "
+msgstr "Geben Sie Ihren Nickname iContact Anwendung"
+
+#: admin/forms/mailing_settings.php:158
+msgid "iContact Application AppID"
+msgstr "iContact Anwendung App-ID"
+
+#: admin/forms/mailing_settings.php:165
+msgid "Your App-ID"
+msgstr "Ihre App-ID"
+
+#: admin/forms/mailing_settings.php:174 admin/forms/mailing_settings.php:221
+#: admin/forms/mailing_settings.php:255 admin/forms/mailing_settings.php:319
+msgid "Please Select a Mailing List:"
+msgstr "Bitte wählen Sie eine Mailingliste:"
+
+#: admin/forms/mailing_settings.php:187
+msgid "Constant Contact"
+msgstr "Constant Contact"
+
+#: admin/forms/mailing_settings.php:189
+msgid "Constant Contact Username"
+msgstr "Constant Contact Benutzername"
+
+#: admin/forms/mailing_settings.php:196
+msgid "Enter your Username"
+msgstr "Geben Sie Ihren Benutzername"
+
+#: admin/forms/mailing_settings.php:200
+msgid "Enter your Constant Contact application Username "
+msgstr "Geben Sie Ihre Constant Contact Anwendungs Benutzername"
+
+#: admin/forms/mailing_settings.php:205
+msgid "Constant Contact Password"
+msgstr "Constant Contact Passwort"
+
+#: admin/forms/mailing_settings.php:212
+msgid "Enter your Password"
+msgstr "Geben Sie Ihr Kennwort"
+
+#: admin/forms/mailing_settings.php:216
+msgid "Enter your Constant Contact application Password"
+msgstr "Geben Sie Ihre Constant Contact Anwendung Passwort"
+
+#: admin/forms/mailing_settings.php:234
+msgid "Get Response"
+msgstr "Holen Antwort"
+
+#: admin/forms/mailing_settings.php:236
+msgid "You can create the API Key under the My Account Link"
+msgstr "Sie können die API Key unter dem Link Mein Konto erstellen"
+
+#: admin/forms/mailing_settings.php:239
+msgid "Enter get Respose Api Key"
+msgstr "Geben Sie erhalten Antwort API-Schlüssel"
+
+#: admin/forms/mailing_settings.php:271
+msgid "Campaign Monitor"
+msgstr "Kampagne Monitor"
+
+#: admin/forms/mailing_settings.php:273
+msgid "Campaign Monitor Api Key"
+msgstr "Kampagne Monitor API-Schlüssel"
+
+#: admin/forms/mailing_settings.php:275
+msgid "The API Key can be found undet the account setting."
+msgstr "Die API Key unter dem Konto-Einstellung gefunden werden."
+
+#: admin/forms/mailing_settings.php:279 admin/forms/mailing_settings.php:286
+msgid "Campaign Monitor ClientId"
+msgstr "Kampagne Monitor Client Id"
+
+#: admin/forms/mailing_settings.php:281
+msgid ""
+"The ClientId can be generated from the Client Setting in the clients "
+"overview area."
+msgstr ""
+"Die Client-ID kann von der Client-Einstellung in der Clients "
+"Übersichtsbereich erzeugt werden."
+
+#: admin/forms/mailing_settings.php:294
+msgid "Enter  Client Id"
+msgstr "Geben Sie Client-ID"
+
+#: admin/forms/mailing_settings.php:303
+msgid "Enter Campaign Monitor Api Key"
+msgstr "Geben Campaign Monitor API-Schlüssel"
+
+#: admin/forms/mailing_settings.php:339
+msgid "Enter Email Address"
+msgstr "E-Mail Adresse Eingeben"
+
+#: admin/forms/mailing_settings.php:344
+msgid "Enter a email address to which you want to send the contact details"
+msgstr ""
+"Geben Sie eine E-Mail-Adresse, an die Sie die Kontaktdaten senden möchten"
+
+#: admin/forms/mailing_settings.php:353
+msgid "Save Changes"
+msgstr "Änderungen Speichern"
+
+#: admin/forms/metabox.php:8 admin/forms/metabox.php:11
+msgid "Info bar"
+msgstr "Info bar"
+
+#: admin/forms/nottypes.php:59 admin/forms/nottypes.php:67
+msgid "Icon"
+msgstr "Symbol"
+
+#: admin/forms/nottypes.php:61 admin/forms/nottypes.php:69
+#: admin/forms/nottypes.php:172
+msgid "Background color"
+msgstr "Hintergrundfarbe"
+
+#: admin/forms/nottypes.php:89
+msgid "No icon"
+msgstr "kein Icon"
+
+#: admin/forms/nottypes.php:126
+msgid "New / edit entry"
+msgstr "neue / Eintrag bearbeiten"
+
+#: admin/forms/nottypes.php:137
+msgid "Icon path"
+msgstr "Icon-Pfad"
+
+#: admin/forms/nottypes.php:138
+msgid "If you leave this empty, no icon will be displayed in the info bar"
+msgstr ""
+"Wenn Sie diese leer lassen, wird kein Symbol in der Infoleiste angezeigt "
+"werden"
+
+#: admin/forms/nottypes.php:146
+msgid "URL"
+msgstr "URL"
+
+#: admin/forms/nottypes.php:147
+msgid "Makes the image clickable, linking to this URL"
+msgstr "Macht das Bild angeklickt, verwendet diese URL"
+
+#: admin/forms/nottypes.php:155
+msgid "Notification name"
+msgstr "Benachrichtigungsname"
+
+#: admin/forms/nottypes.php:156
+msgid "This text will be displayed as announcement message"
+msgstr "Dieser Text wird als Ansage angezeigt"
+
+#: admin/forms/nottypes.php:164
+msgid "Notification size"
+msgstr "Benachrichtigung Größe"
+
+#: admin/forms/settings.php:15
+msgid "Notifications settings"
+msgstr "Benachrichtigungen Einstellungen"
+
+#: admin/forms/settings.php:25
+msgid "Bar type:"
+msgstr "Bar-Typ:"
+
+#: admin/forms/settings.php:27
+msgid "Fixed"
+msgstr "fest"
+
+#: admin/forms/settings.php:28
+msgid "Inline"
+msgstr "Im Einklang"
+
+#: admin/forms/settings.php:29
+msgid ""
+"Inline = scrolls with the page, Fixed = stays on top of the screen also when "
+"scrolling the page"
+msgstr ""
+"Inline = scrollt mit der Seite, bleibt Fest = oben auf dem Bildschirm auch "
+"beim Scrollen der Seite"
+
+#: admin/forms/settings.php:31
+msgid "Insert type:"
+msgstr "Befestigungstyp:"
+
+#: admin/forms/settings.php:33
+msgid "Widget"
+msgstr "Widget"
+
+#: admin/forms/settings.php:34
+msgid "Header"
+msgstr "Kopfzeile"
+
+#: admin/forms/settings.php:35
+msgid ""
+"Widget = you need to insert the widget, Header = Inserts the info bar "
+"automaticly on all pages / posts"
+msgstr ""
+"Widget = Sie das Widget einfügen müssen, Kopfball = Fügt die Infoleiste "
+"automatisch auf allen Seiten / Beiträge"
+
+#: admin/forms/settings.php:37
+msgid "Easing type:"
+msgstr "Lockerung Typ:"
+
+#: admin/forms/settings.php:38
+msgid "Swing"
+msgstr "Schaukel"
+
+#: admin/forms/settings.php:39
+msgid "Linear"
+msgstr "linear"
+
+#: admin/forms/settings.php:42
+msgid "Bar announcement text:"
+msgstr "Bar Ansagetext:"
+
+#: admin/forms/settings.php:43
+msgid "The message here will be static on the LEFT of the Info bar."
+msgstr "Die Botschaft wird statisch auf der linken Seite der Infoleiste sein."
+
+#: admin/forms/settings.php:45
+msgid "Bar announcement text size:"
+msgstr "Bar Ankündigung Textgröße:"
+
+#: admin/forms/settings.php:48
+msgid "Display time:"
+msgstr "Anzeigedauer:"
+
+#: admin/forms/settings.php:49
+msgid "Display in milliseconds (for ex: 2000 = 2 seconds)"
+msgstr "Display in Millisekunden (zB: 2000 = 2 Sekunden)"
+
+#: admin/forms/settings.php:51
+msgid "Bar height:"
+msgstr "Bar Höhe:"
+
+#: admin/forms/settings.php:52
+msgid "Height of the bar in pixels"
+msgstr "Höhe des Balkens in Pixel"
+
+#: admin/forms/settings.php:54
+msgid "Button height:"
+msgstr "Taste Höhe:"
+
+#: admin/forms/settings.php:55
+msgid ""
+"Height of the button in pixels (button is visible when the bar is colapsed)"
+msgstr ""
+"Höhe der Schaltfläche in Pixel (Knopf ist sichtbar, wenn die Bar ist "
+"eingeklappt)"
+
+#: admin/forms/settings.php:57
+msgid "Display type:"
+msgstr "Anzeigetyp"
+
+#: admin/forms/settings.php:60
+msgid "Delayed"
+msgstr "verspätet"
+
+#: admin/forms/settings.php:61
+msgid "Expanded"
+msgstr "ergänzt"
+
+#: admin/forms/settings.php:62
+msgid "Collapsed"
+msgstr "zusammengebrochen"
+
+#: admin/forms/settings.php:63
+msgid "On Scroll"
+msgstr "der auf Rolle"
+
+#: admin/forms/settings.php:64
+msgid "The options delayed & on scroll, depend on the Display delay settings"
+msgstr ""
+"Die Optionen Verzögerung und auf Rolle, abhängig von den Anzeigeverzögerung "
+"Einstellungen"
+
+#: admin/forms/settings.php:66
+msgid "Display delay:"
+msgstr "Anzeigeverzögerung:"
+
+#: admin/forms/settings.php:67
+msgid ""
+"When the site is visited the bar is colapsed by default, it will be expanded "
+"after this delay (in milliseconds)"
+msgstr ""
+"Wenn die Site besucht die Bar ist standardmäßig eingeklappt, wird er nach "
+"dieser Verzögerung erweitert werden (in Millisekunden)"
+
+#: admin/forms/settings.php:69
+msgid "Display speed:"
+msgstr "Anzeigegeschwindigkeit:"
+
+#: admin/forms/settings.php:72
+msgid "Extreme slow"
+msgstr "extremer Zeit"
+
+#: admin/forms/settings.php:73
+msgid "Slow"
+msgstr "langsam"
+
+#: admin/forms/settings.php:74
+msgid "Normal"
+msgstr "normal"
+
+#: admin/forms/settings.php:75
+msgid "Fast"
+msgstr "schnell"
+
+#: admin/forms/settings.php:76
+msgid "Extreme fast"
+msgstr "extrem schnelle"
+
+#: admin/forms/settings.php:77
+msgid "The speed of scrolling when a message is too long to display"
+msgstr ""
+"Die Geschwindigkeit der Bildlauf, wenn eine Nachricht zu lang angezeigt"
+
+#: admin/forms/settings.php:79
+msgid "Enable cookie:"
+msgstr "Aktivieren Sie Cookies:"
+
+#: admin/forms/settings.php:83
+msgid ""
+"When enabled, the colapsed or expanded position of the bar will be saved in "
+"a cookie, for future visits"
+msgstr ""
+"Wenn aktiviert, wird die reduziert oder erweitert Position der Bar in einem "
+"Cookie gespeichert werden, für zukünftige Besuche"
+
+#: admin/forms/settings.php:85
+msgid "New message new Cookie:"
+msgstr "Neue Nachricht neues Cookie:"
+
+#: admin/forms/settings.php:89
+msgid ""
+"If a new notification is scheduled to display, the cookie will be refreshed "
+"and all saved states will be ignored. (basicly this means: if anything "
+"changes in the set of messages which need to being displayed or you create a "
+"new message, the info bar will be expanded by default again, and the new "
+"notification will be visible to the user)"
+msgstr ""
+"Wenn eine neue Mitteilung soll angezeigt werden, wird der Cookie "
+"aufgefrischt werden und alle gespeicherten Zustände ignoriert. (im Grunde "
+"bedeutet dies: wenn etwas ändert in dem Satz von Nachrichten, die angezeigt "
+"werden muss oder Sie eine neue Nachricht erstellen, wird die Info-Leiste "
+"standardmäßig wieder ausgebaut werden, und die neue Meldung für den Benutzer "
+"sichtbar sein)"
+
+#: admin/forms/settings.php:91
+msgid "Cookie expire time:"
+msgstr "Cookie abläuft Zeit:"
+
+#: admin/forms/settings.php:92
+msgid ""
+"Cookie expire time in days. If the cookie expires, the user saved states "
+"will be ignored (The Info bar will be auto expanded then!)"
+msgstr ""
+"Cookie Ablaufzeit in Tagen. Wenn das Cookie abläuft, wird der Benutzer zu "
+"speichern Zustände ignoriert (Die Infoleiste wird automatisch dann erweitert "
+"werden!)"
+
+#: admin/forms/settings.php:94
+msgid "Font size:"
+msgstr "Schriftgröße:"
+
+#: admin/forms/settings.php:97
+msgid "Close / Open button position:"
+msgstr "Schließen / Öffnen-Taste Position:"
+
+#: admin/forms/settings.php:99
+msgid "Left"
+msgstr "links"
+
+#: admin/forms/settings.php:100
+msgid "Right"
+msgstr "recht"
+
+#: admin/forms/settings.php:103
+msgid "Roles for notifications:"
+msgstr "Rollen für Benachrichtigungen:"
+
+#: admin/forms/settings.php:121
+msgid ""
+"The roles selected here, can create/edit/delete notifications. No roles "
+"selected gives access to administrator only"
+msgstr ""
+"Die hier ausgewählten Rollen, erstellen / bearbeiten / löschen "
+"Benachrichtigungen. Keine Rollen ausgewählt ermöglicht den Zugriff auf "
+"Administrator nur"
+
+#: admin/forms/settings.php:123
+msgid "Show version numbering in HTML source:"
+msgstr "Zeigen Versionsnummerierung in HTML code:"
+
+#: admin/forms/settings.php:127
+#, php-format
+msgid "(Shows the versionnumber of the Info Bar (%s) in the HTML source code)"
+msgstr "(Zeigt die Versionsnummer der InfoBar (%s) in den HTML-Quellcode)"
+
+#: admin/forms/settings.php:129
+msgid "Debug:"
+msgstr "Debug:"
+
+#: admin/forms/settings.php:133
+msgid ""
+"Only enable when developers instruct you to do, this will speed up things "
+"when fixes are needed :)"
+msgstr ""
+"Aktivieren Sie nur, wenn Entwickler anweisen, was Sie tun, wird dies "
+"beschleunigen Dinge, wenn Korrekturen erforderlich sind :)"
+
+#: admin/forms/subscriberlist.php:15
+msgid "Email"
+msgstr "E-mail:"
+
+#: admin/forms/subscriberlist.php:33
+msgid "Do you want your leads to store in database?"
+msgstr "Möchten Sie Ihre Leads in Datenbank speichern?"
+
+#: admin/forms/subscriberlist.php:40 admin/forms/subscriberlist.php:44
+msgid "Yes"
+msgstr "Ja"
+
+#: admin/forms/subscriberlist.php:41 admin/forms/subscriberlist.php:45
+msgid "No"
+msgstr "Nein"
+
+#: admin/forms/subscriberlist.php:52
+msgid "Download List in File"
+msgstr "Download-Liste in Datei"
+
+#: admin/forms/subscriberlist.php:56
+msgid "Downlaod"
+msgstr "Download"
+
+#: admin/functions.php:88
+msgid ""
+"All your existing time schedules have been converted to epoch timing, check "
+"your schedules asap!"
+msgstr ""
+"Alle vorhandenen Zeitpläne haben zu Epoche Timing umgewandelt werden, "
+"überprüfen Sie Ihre Termine so bald wie möglich!"
+
+#: admin/install/install.php:46
+msgid "Notification example"
+msgstr "Benachrichtigung Beispiel"
+
+#: admin/install/install.php:47
+msgid "Congratulations, you have just installed Info Bar !"
+msgstr "Herzlichen Glückwunsch, Sie gerade Info Bar installiert haben!"
+
+#: admin/install/install.php:53
+msgid "TIP"
+msgstr "Spitze"
+
+#: admin/install/install.php:54
+msgid "IMPORTANT"
+msgstr "wichtig"
+
+#: admin/install/install.php:55
+msgid "ANNOUNCEMENT"
+msgstr "Ankündigung"
+
+#: admin/widgets.php:9
+msgid ""
+"No function here, justs inserts the appropiate stuff to display the infobar "
+"bar!"
+msgstr ""
+"Keine Funktion hier, justs das entsprechende Material fügt, um die Infobar "
+"bar anzusehen!"
+
+#~ msgid "(Shows the versionnumber of the Info Bar ("
+#~ msgstr "(Zeigt die Versionsnummer der Infoleiste ("
+
+#~ msgid "Enter your api key"
+#~ msgstr "Geben Sie Ihren API-Schlüssel"
+
+#~ msgid "Enter Your Api key"
+#~ msgstr "Geben Sie Ihren API-Schlüssel"

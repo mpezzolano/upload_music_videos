@@ -1,0 +1,95 @@
+.attentionbar-wrapper { width: 100%; height:35px; z-index:1000;}
+.attentionbar-container { width:100%; height:30px; overflow:hidden; z-index:1000;} 
+.attentionbar-container-left, .attentionbar-container-right { width:20%; height:30px; display:inline-block; line-height:30px; float:left; }
+.attentionbar-container-center { width:20%; height:30px; display:inline-block; line-height:30px; float:left; overflow:hidden; }
+.attentionbar-close-button-container { width:5%; height:30px; display:inline-block; }
+.attentionbar-open-button-container { width:5%; height:0px; display:block; position:absolute; top:0; overflow:hidden; }
+.attentionbar-open-button-container.shadow { background:url('images/attentionbar-button-shadow.png') no-repeat center bottom; }
+.attentionbar-open-button, .attentionbar-close-button { width:28px; height:30px; display:block; margin:0 auto; outline:none; border:none; }
+.attentionbar-open-button {
+  -moz-border-radius-topleft: 0px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.attentionbar-open-button.long-arrow { background:url('images/attentionbar-open-arrow.png') no-repeat center center; }
+.attentionbar-open-button.long-arrow:hover { background:url('images/attentionbar-open-arrow-over.png') no-repeat center center; }
+.attentionbar-close-button.long-arrow { background:url('images/attentionbar-close-arrow.png') no-repeat center center; }
+.attentionbar-close-button.long-arrow:hover { background:url('images/attentionbar-close-arrow-over.png') no-repeat center center; }
+
+.attentionbar-announcement { list-style-type:none; height:30px; margin:0; padding:0; }
+.attentionbar-announcement li { height:30px; float:left; text-align:left; line-height:30px; }
+.attentionbar-announcement li a { width:30px; height:30px; display:inline-block; }
+
+.attentionbar-announcement li.announcement {
+	padding-right: 10px;
+	padding-left: 10px;
+	font-family: verdana;
+}
+.attentionbar-obtained  #name_field{
+margin-right: 10px;
+margin-left: 10px;
+-webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0 3px 2px;
+  border-radius: 1px;
+  vertical-align: baseline;
+   width: 156px;
+}
+.attentionbar-obtained  #email_field{
+margin-right: 10px;
+-webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0 3px 2px;
+  border-radius: 1px;
+  vertical-align: baseline;
+   width: 156px;
+}
+.attentionbar-obtained input[type="text"] {
+	line-height: 18px;
+	border:1px solid rgba(0, 0, 0, 0.32);
+	border-radius: 2px !important;
+}
+.attentionbar-obtained button#submit{
+background-color: #000000;
+border: 1px solid #050809;
+display: inline-block;
+color: #ffffff;
+font-size: 16px;
+font-weight: normal;
+text-decoration: none;
+text-shadow: 0px 1px 0px #34849f;
+margin-right: 10px;
+padding: 6px 15px 7px 15px;
+border-radius: 2px;
+line-height: 18px;
+vertical-align: baseline;
+cursor:pointer;
+}
+button#submit{
+margin-top: 5px;
+}
+@media (max-width:500px){
+.attentionbar-container-left{
+display:none;
+}
+.attentionbar-container-center{
+width: 80% !important;
+margin-left: 5%;
+}
+}
+@media (max-width: 740px){
+   .attentionbar-open-button, .attentionbar-close-button {
+        width: 20px;
+    }  
+}

@@ -1,0 +1,94 @@
+== Changelog ==
+
+= Theme Name: videocraft Theme Pro=
+
+= Version: 2.0.3 =
+1. Made compatible with Ink Member Plugin.
+2. Removed unused codes plus optimized codes.
+3. Remove all fetal error.
+4. Added add theme support for title.
+5. Made theme translation ready.
+
+= Version: 2.0.2 =
+1. Dropdown video category issue fixed.
+
+= Version: 2.0.1 =
+1. Search Page Issue Fixed.
+
+= Version: 2.0.0 =
+1. Theme Design and Layout Improve.
+2. Visual Effects added.
+3. Overall Typography Improve
+4. Footer Logo will change with Users Logo 
+
+= Version: 1.2.4 =
+1. Front page video listing pagination issue fixed.
+2. registration issue fixed.
+
+= Version: 1.2.3 =
+1. Video Category Option Added In Theme Option.  
+
+= Version: 1.2.2 =
+1. Featured Video Option error fixed. 
+
+= Version: 1.2.1 =
+1. Featured Video Option On Homepage added.
+
+= Version: 1.2.0 =
+1. Upload section button text improved.
+2. Social sharing options added.
+3. Submit landing page improved.
+4. Recent videos widget on home page changed to Random videos.
+5. Searching improved with Video Category & Tags.
+
+= Version: 1.1.3 =
+1. Video made using iPhone can be uploaded now to VideoCraft.
+
+= Version: 1.1.2 =
+
+1. Image Captcha Added during user registration.
+2. Latest JW player Added.
+3. edit video category issue fixed.
+4. Video now uploads with progress bar.
+5. Video Search widget added.
+
+
+= Version: 1.1.1 =
+
+1. Video Category Widget Dropdown Issue Resolve:
+
+= Version: 1.1.0 =
+
+1. Mail Function Added:
+
+If a user submits a video, Admin receives an email of pending approval. Once the admin approves the video, User gets an email that his video is made live.
+
+2. Text Domains Updated:
+
+Added translation strings on the theme to make it simple to translate the theme in any language.
+
+3. Comment Style Updated:
+
+Few styling adjustments made in the commenting system of the VideoCraft Theme.
+
+4. Style.css updated:
+
+Enhanced Visual appearance of the themes to make it look even more awesome. Fixed appearance of theme on Mobile and Tablet views.
+
+= Version: 1.0.4 =
+1.Terms And Condition Added In Signin Form.
+
+= Version: 1.0.3 =
+1.Mobile Menu Problem fixed.
+
+
+= Version: 1.0.2 =
+1.Slow loding issue fixed.
+
+= Version: 1.0.1 =
+1.ipad and iphone video problem solved.
+2.Upload button problem solved.
+
+= Version: 1.0 =
+* * videocraft Theme is created on 1/09/2012.
+                        
